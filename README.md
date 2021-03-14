@@ -1,6 +1,9 @@
 # SOLUTION by Mila Sinica
 
 
+- Run `npm install` to install node modules.
+
+
 - To run **main test** with input data provided and see result output execute `npm run solve` from the main directory.
 - To run **all tests** available execute `npm test` from the main directory.
 - To run **linter** execute `npm run lint` from the main directory.
