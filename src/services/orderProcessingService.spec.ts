@@ -220,7 +220,7 @@ describe('OrderProcessingService', () => {
     });
 
     it('should distribute all orders to first worker', () => {
-      result.forEach(res => expect(res.employee).toEqual(firstEmployee.id));
+      result.forEach((res) => expect(res.employee).toEqual(firstEmployee.id));
     });
   });
 });

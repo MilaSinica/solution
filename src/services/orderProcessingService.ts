@@ -34,7 +34,7 @@ export class OrderProcessingService {
     const fairNumberOfOrdersPerEmployee = Math.floor(orderCount / employeeCount);
     let numberOfOrderResidue = orderCount - fairNumberOfOrdersPerEmployee * employeeCount;
 
-    let orderList = [] as Array<number>;
+    const orderList = [] as Array<number>;
     for (let i = 0; i < employeeCount; i++) {
       let numberOfOrders = 0;
       if (numberOfOrderResidue) {

@@ -1,5 +1,4 @@
 import { Car } from '../domainModels/car';
-import { Employee } from '../domainModels/employee';
 import { FuelAddedDto } from '../types';
 import { FUEL_PRICE_PER_LITRE, FUEL_LEVEL_REFILL_BOUND, PARKING_FEE } from '../constants';
 
