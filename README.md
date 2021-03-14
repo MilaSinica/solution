@@ -1,6 +1,6 @@
 # SOLUTION by Mila Sinica
 
-- Git clone reprository to local machine using SSH `git@github.com:MilaSinica/solution.git`.
+
 - Run `npm install` to install node modules.
 
 
